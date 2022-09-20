@@ -3,7 +3,7 @@ import './App.css'
 import QuoteBox from './components/QuoteBox'
 import quotes from './json/quotes.json'
 import color from './utils/color'
-
+/*import Contador from './components/Contador' */
 
 function App() {
 
@@ -28,8 +28,12 @@ function App() {
         randomQuote={randomQuote}
         randomColor={randomColor}
         getRandomAll={getRandomAll}
+
       />
+
+
     </div>
+
   )
 }
 

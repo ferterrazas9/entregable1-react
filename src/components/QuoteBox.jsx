@@ -1,4 +1,5 @@
 import React from 'react'
+/*import Contador from '../components/Contador'*/
 
 const QuoteBox = ({ randomQuote, randomColor, getRandomAll }) => {
     const colorObj = {
